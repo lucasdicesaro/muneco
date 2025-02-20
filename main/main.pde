@@ -1,6 +1,6 @@
-int rectSize = 70;
-int xLimit = 10;
-int yLimit = 10;
+int rectSize = 40;
+int xLimit = 20;
+int yLimit = 20;
 
 int xCoord = 0;
 int yCoord = 0;
@@ -9,7 +9,7 @@ int yCoordAnt = 0;
 
 
 void setup() {
-  size(700,700);
+  size(800,800);
   
   fill(255);
   for (int i = 0; i < yLimit; i++) {
